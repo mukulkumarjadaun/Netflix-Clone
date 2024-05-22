@@ -1,0 +1,235 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+
+.main {
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/d253acf4-a1e2-4462-a416-f78802dc2d85/f04bf88c-f71c-4d02-82ed-adb870b8f8db/IN-en-20240429-POP_SIGNUP_TWO_WEEKS-perspective_WEB_658a042e-62cf-473d-8da0-7b875f23e2ef_small.jpg);
+    height: 544px;
+   
+    position: relative;
+    background-position: center center;
+}
+
+.main .box {
+    height: 544px;
+    width: 100%;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70vw;
+    margin: auto;
+    height: 100px;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+nav img {
+    width: 130px;
+    position: relative;
+    z-index: 10;
+}
+
+.btn {
+    padding: 2px 14px;
+    margin: 3px;
+    border-radius: 7px;
+}
+
+.red {
+    background-color: red;
+    color: aliceblue;
+
+}
+
+
+.hero {
+    position: relative;
+    height: calc(100% - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px;
+    color: aliceblue;
+    width: 80vw;
+    margin: auto;
+    gap: 18px;
+}
+
+.hero .one {
+    font-weight: bolder;
+    font-size: 45px;
+}
+
+.hero .two {
+    font-size: 29px;
+}
+
+.hero .three {
+    font-size: 20px;
+}
+.seperation{
+    height: 7px;
+    background-color: rgb(83, 83, 83);
+    position: relative;
+    z-index: 10;
+}
+.first {
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.secimg {
+    position: relative;
+}
+
+.secimg img {
+    width: 555px;
+    position: relative;
+    z-index: 10;
+}
+
+.secimg video {
+    position: absolute;
+    top: 51px;
+    right: 0;
+    width: 555px;
+}
+
+section.first>div {
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0;
+}
+
+section.first>div :nth-child(1) {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+
+section.first>div :nth-child(2) {
+    font-size: 24px;
+
+}
+.seperation2{
+    height: 7px;
+    background-color: rgb(83, 83, 83);
+    position: relative;
+    z-index: 10;
+
+}
+.second{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 80vw;
+   margin: auto;
+   color: aliceblue;
+
+}
+.spans{
+    color: aliceblue;
+   
+}
+.four{
+    font-size: 38px;
+    font-weight: bolder;
+}
+.five{
+    font-size: 27px;
+}
+.six{
+    font-size: 19px;
+}
+.seperation3{
+    height: 7px;
+    background-color: rgb(83, 83, 83);
+    position: relative;
+    z-index: 10;
+}
+.three{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70vw;
+    margin: auto;
+    color: aliceblue;
+
+}
+.bhaiya{
+    font-size: 53px;
+
+}
+.bhaiya2{
+    font-size: 28px;
+
+}
+.bhaiya3{
+    font-size: 29px;
+
+}
+.secimg3 video
+{
+    height: 200px;
+    width: 555px;
+    position: absolute;
+ right: 0px;
+ top: 51px;
+   
+
+}
+.secimg3 img{
+    width: 555px;
+    position: relative;
+    z-index: 10;
+}
+.secimg3{
+    position: relative;
+}
+.seperation3{
+    height: 7px;
+    background-color: rgb(83, 83, 83);
+    position: relative;
+    z-index: 10;
+}
+.four{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 7px;
+    color: aliceblue;
+
+}
+.me{
+    height: 31px;
+    width: 70vw;
+    margin: auto;
+    color: grey;
+    opacity: 0.99;
+    border: 2px solid grey;
+    background-color: grey;
+
+}
